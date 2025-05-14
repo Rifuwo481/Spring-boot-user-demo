@@ -1,35 +1,33 @@
-🌸 Spring Boot User Management Demo 🌸
-Welcome to the Spring Boot User Management Demo! This project is a delightful introduction to Spring Boot, showcasing the magic of Dependency Injection, Layered Architecture, and In-Memory Data Storage. Whether you're a budding developer or a seasoned coder, this demo will help you grasp the fundamentals while keeping things fun and engaging.
+# 🌱 Spring Boot User Management Demo
 
-🚀 Technologies Used
-Java 17
+> A minimal yet powerful Spring Boot project to get you started with **annotations**, **dependency injection**, **layered architecture**, and **unit testing** — all using an in-memory setup! Perfect for Spring Boot beginners. 🚀
 
-Spring Boot (Because who likes boilerplate code? ✨)
+---
 
-JUnit 5 (For testing like a pro 🧪)
+## 🔧 Tech Stack
 
-Gradle (For smooth dependency management 📦)
-🎯 Key Features
-✨ Layered Architecture – Clean separation of concerns with Model, Repository, and Service layers.
-✨ Dependency Injection – Let Spring handle the heavy lifting with @Autowired.
-✨ In-Memory Storage – A "fake" database (no SQL, no problem!).
-✨ Unit Testing – Because untested code is like a sandwich without filling. 🥪
-📜 Code Standards
-✔ Java Best Practices – CamelCase, PascalCase, and encapsulation galore!
-✔ Spring Boot Annotations – @SpringBootApplication, @Autowired, and more.
-✔ Testing – JUnit 5 tests for every service method.
-✔ Git Commit Standards – Because clean commits = happy teammates.
-🌟 Why This Project?
-This demo is designed to help you:
+> Built with modern tools and best practices:
 
-Understand Spring Boot fundamentals without drowning in complexity.
+- 💻 **Java 17**
+- 🌐 **Spring Boot**
+- ✅ **JUnit 5**
+- 🛠️ **Gradle**
 
-Practice clean, testable code in a structured way.
+---
 
-Get comfortable with Git workflows and collaboration.
-📚 Resources & Learning
-Spring vs. Spring Boot
+## 📂 Project Structure
 
-Spring Boot Annotations Guide
-
-Dependency Injection Explaine
+```bash
+spring-boot-user-demo/
+├── build.gradle
+├── README.md
+└── src/
+    ├── main/java/com/example/demo/
+    │   ├── DemoApplication.java          # Main Spring Boot entry point
+    │   ├── model/User.java               # User model
+    │   ├── repo/FakeRepoInterface.java   # Interface for repository
+    │   ├── repo/FakeRepo.java            # In-memory implementation
+    │   ├── service/UserService.java      # Service interface
+    │   └── service/UserServiceImpl.java  # Service implementation
+    └── test/java/com/example/demo/
+        └── service/UserServiceTests.java # Unit tests
